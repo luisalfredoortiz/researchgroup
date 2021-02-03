@@ -1,0 +1,8 @@
+body{
+	width: 100%;
+	height: 100vh;
+}
+header{
+	background-image: url(fondos/fondo4.jpg);
+	background-size: 100%;
+}

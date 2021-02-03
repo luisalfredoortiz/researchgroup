@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #252323;
+
+}
+header{
+	background-image: url('fondos/fondo4.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+article{
+	color: #ffffff
+
+}
+
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	align-content: center;
+}
+
+/* Sección llamada */
+
+.llamada{
+	background-image: url('fondos/fondo2.png');
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+/* MENU */
+
+nav{
+
+	position: fixed;
+	width: 100%;
+}
+
+nav ul{
+
+	text-align: center;
+	list-style: none;
+	margin-top: 25px;
+}
+
+nav ul li{
+
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 26px;
+}
+
+/* HEADER */
+
+.contenedor-titulo{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.contenedor-titulo h1{
+	font-size: 38px;
+	color: #ffffff;
+
+}
+
+/*Foto Doctor F. bulnes*/
+.img{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+
+}

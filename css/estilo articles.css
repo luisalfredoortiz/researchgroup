@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #252323;
+
+}
+
+header{
+	background-image: url('fondos/fondo4.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+.contenedor-titulo{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.contenedor-titulo h1{
+	font-size: 38px;
+	color: #ffffff;
+
+}
+
+/* MENU */
+
+nav{
+
+	position: fixed;
+	width: 100%;
+}
+
+nav ul{
+
+	text-align: center;
+	list-style: none;
+	margin-top: 25px;
+}
+
+nav ul li{
+
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 26px;
+}
+
+/* ARTICULOS */
+
+.articulos{
+	background-image: url('fondos/paraboloide.jpg');
+	width: 100%;
+	height: 500px;
+	background-size: contain;
+	background-position: auto;
+	background-attachment: fixed;
+}
+
+div ul{
+
+	text-align: center;
+	list-style: none;
+	margin-top: 25px;
+}
+
+div ul li{
+
+	display: inline-block;
+	padding: 20px;
+}
+
+div ul li a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 26px;
+}
