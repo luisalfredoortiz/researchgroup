@@ -14,10 +14,16 @@ header{
 	background-position: center;
 
 }
+
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	align-content: center;
+}
 /* MENU */
 
 nav{
-	background-image: ('fondos/fondo3.jpg');
+	
 	position: fixed;
 	width: 100%;
 }
@@ -40,7 +46,15 @@ nav ul li a{
 	color: #ffffff;
 	font-size: 26px;
 }
-.contenedor{
-	width: 50%;
+.contenedor-titulo{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.donaciones{
+	width: 25%;
 	margin: 0 auto;
 	align-content: center;
+}
